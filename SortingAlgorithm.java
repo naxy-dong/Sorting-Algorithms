@@ -52,6 +52,5 @@ public abstract class SortingAlgorithm implements SortingInterface{
     public boolean isInplace() {
         return inplace;
     }
-
 }
 
