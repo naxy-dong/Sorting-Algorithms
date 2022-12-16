@@ -5,8 +5,6 @@ public class SortingAlgRunner {
     // ideas, save it to a file
     // sort it by time
     private static Scanner sc = new Scanner(System.in);
- 
-
     private static boolean withRange = false;
     private static boolean withArray = false;
     private static SortingAlgorithm[] sortingOptions = { new BubbleSort(), new EfficientBubbleSort(),
