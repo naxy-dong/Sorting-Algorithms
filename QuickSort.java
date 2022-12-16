@@ -1,0 +1,52 @@
+public class QuickSort extends SortingAlgorithm{
+
+    public QuickSort() {
+        super("Quick Sort", false);
+    }
+
+    @Override
+    public void sort(int[] arr) {
+        quickSortHelper(arr, 0, arr.length - 1);
+        
+    }
+
+    private void quickSortHelper(int[] arr, int low, int high) {
+        if (low < high) {
+
+            // pi is partitioning index, arr[p]
+            // is now at right place
+            int pi = partition(arr, low, high);
+
+            // Separately sort elements before
+            // partition and after partition
+            quickSortHelper(arr, low, pi - 1);
+            quickSortHelper(arr, pi + 1, high);
+        }
+    }
+
+    // this partition assumes that the pivots is always the last element
+    private int partition(int[] arr, int low, int high) {
+        // pivot
+        int pivot = arr[high];
+
+        // Index of smaller element and
+        // indicates the right position
+        // of pivot found so far
+        int i = (low - 1);
+
+        for (int j = low; j <= high - 1; j++) {
+
+            // If current element is smaller
+            // than the pivot
+            if (arr[j] < pivot) {
+
+                // Increment index of
+                // smaller element
+                i++;
+                swap(arr, i, j);
+            }
+        }
+        swap(arr, i + 1, high);
+        return (i + 1);
+    }
+}
