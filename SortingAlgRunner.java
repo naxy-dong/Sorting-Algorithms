@@ -3,6 +3,9 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
+import Interface_And_Abs_Classes.SortByTime;
+import Interface_And_Abs_Classes.SortingAlgorithm;
+import SortingAlgorithms.*;
 
 public class SortingAlgRunner {
     // ideas, save it to a file
