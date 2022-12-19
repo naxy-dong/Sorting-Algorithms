@@ -8,8 +8,6 @@ import Interface_And_Abs_Classes.SortingAlgorithm;
 import SortingAlgorithms.*;
 
 public class SortingAlgRunner {
-    // ideas, save it to a file
-    // sort it by time
     private static Scanner sc = new Scanner(System.in);
     private static boolean withRange = false;
     private static boolean withArray = false;
@@ -101,7 +99,6 @@ public class SortingAlgRunner {
     }
 
     private static void performSort(int option) throws NumberFormatException, IllegalArgumentException {
-        // Option is 1 - 9
         if (option <= 0 || option > sortingOptions.size())
             throw new IllegalArgumentException();
         System.out.print("Enter no. of elements: ");
