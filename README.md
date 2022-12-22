@@ -1,6 +1,6 @@
 # Sorting-Algorithms
 This is my sorting algorithm project.
-I made this project in order to test out which sorting algorithm is the most efficient one to use under certain constraint.
+I made this project to test out which sorting algorithm is the most efficient to use under certain constraints.
 ### To run the program, type ```java SortingAlgRunner``` in the terminal
 
 ## Features
