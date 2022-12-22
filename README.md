@@ -4,8 +4,8 @@ I made this project in order to test out which sorting algorithm is the most eff
 ## To run the program, type ```java SortingAlgRunner``` in the terminal
 
 ## Features
-1. it can sort the algorithms by time.  //
-2. you can limited the range of the element. (To test out specfic sorting algorithm such as counting sort) //
+1. it can sort the algorithms by time.  
+2. you can limited the range of the element. (To test out specfic sorting algorithm such as counting sort) 
 
 
 ## Picture of the menu
