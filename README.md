@@ -1,7 +1,7 @@
 # Sorting-Algorithms
 This is my sorting algorithm project.
 I made this project in order to test out which sorting algorithm is the most efficient one to use under certain constraint.
-## To run the program, type ```java SortingAlgRunner``` in the terminal
+### To run the program, type ```java SortingAlgRunner``` in the terminal
 
 ## Features
 1. it can sort the algorithms by time.  
